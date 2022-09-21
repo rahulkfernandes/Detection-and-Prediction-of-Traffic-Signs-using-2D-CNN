@@ -5,4 +5,4 @@ The images are pre-processed by first converting the images to gray scale and th
 The CNN model consists of 4 layers of convolution for feature extraction and 1 layer of fully connected network with 500 neurons, with activation function Relu and 1 layer of fully connected dense layer with activation function softmax for classification.
 The data set is split up as X_train, y_train, X_test, y_test with testsize as 0.2 for training the model.
 The results of model training shows that the model achieves 95% accuracy.
-The model is saved and used to predict the traffic signs in real time. The accuracy of detection and prediction of traffic signs is on an average 98% accuracte.  
+The model is saved and used to predict the traffic signs in real time. The accuracy of detection and prediction of traffic signs is on an average 98% accurate.  
