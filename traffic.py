@@ -3,11 +3,10 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import cv2
 from sklearn.model_selection import train_test_split
-#import pickle
 import os
 import pandas as pd
 import random
-#from keras.preprocessing.image import ImageDataGenerator
+
  
  
 ################# Parameters #####################
@@ -172,7 +171,6 @@ def myModel():
 model = myModel()
 print(model.summary())
 history = model.fit(X_train, y_train,epochs=epochs_val,steps_per_epoch=steps_per_epoch_val)
-#history=model.fit_generator(dataGen.flow(X_train,y_train,batch_size=batch_size_val),steps_per_epoch=steps_per_epoch_val,epochs=epochs_val,validation_data=(X_validation,y_validation),shuffle=1)
 
 ############################## SAVE MODEL
 
